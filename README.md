@@ -6,6 +6,9 @@ Context on the code.
 
 There was once a time where I applied and interviewed for a Data Analyst role for a company. As a part of the interview process, I was tasked with mining a data file for a hypothetical E-commerce company. With the end goal of not only displaying my data and ML skills but also find significant insight about the consumer based given the data. At the time, I didn't know much about machine learning, but I have since grown and am interested in applying clustering techniques to mine insights. Ultimately as conduct this project, the question I want to answer goes as following. **What can clustering tells us about consumer behavoir, and how does applying this technique inform product and data decision-making**
 
+### Clustering Overview
+Talk about what cllustering is, and the type of clustering methodolgoies. 
+
 ## Understanding the Data
 
 The data used was provided by Method during their interview process, they kindly provided an index on the variables in the dataset that go as following:
