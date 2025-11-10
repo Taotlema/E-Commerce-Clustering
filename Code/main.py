@@ -44,7 +44,7 @@ def run_all():
 def main():
     # fields
     run = bool
-    file_path = r"C:\Users\ayemi\Documents\GitHub\Dothem_Analyst\Data\dohtem_ecommerce_customers.csv"
+    file_path = r"C:\Users\Owner\Documents\GitHub\E-Commerce-Clustering\Data Files\dohtem_ecommerce_customers.csv"
 
     # Start: User Interface Header
     print()
