@@ -1,13 +1,19 @@
 # E-Commerce-Clustering
 
-Context on the code.
+This Github repository was build for a Data Mining Class at UNCC where I (Ayemhenre Isikhuemhen) focused on exploring and implementing clustering techniques. 
 
 ## Introduction
 
 There was once a time where I applied and interviewed for a Data Analyst role for a company. As a part of the interview process, I was tasked with mining a data file for a hypothetical E-commerce company. With the end goal of not only displaying my data and ML skills but also find significant insight about the consumer based given the data. At the time, I didn't know much about machine learning, but I have since grown and am interested in applying clustering techniques to mine insights. Ultimately as conduct this project, the question I want to answer goes as following. **What can clustering tells us about consumer behavoir, and how does applying this technique inform product and data decision-making**
 
 ### Clustering Overview
-Talk about what cllustering is, and the type of clustering methodolgoies. 
+Before further discussing the project, I would like to take a moment to talk about what clustering is, and how it works. Clustering is an unsupervised machine learning technique that specializes in grouping unlabeled data into what we call clusters. These cluster are thus formed based on the simmilarities between different data points. It can be best be imagining as the computer naturally discovering how the data behaves unlike supervised machine learning that requires pre-labeled data. Of course, there are many ways for clustering to work, the two used in this project are listed below. 
+
+1) **K-Means:** Breaks down data using a "mean" (statistics) to generate a k value of seperate and distinct clusters. This physically minimizes variance, and is known to be a fast and effiecent form of clustering. K-means, typically is great for working on sphereical clusters. While this technique is good for large datasets its does struggle with high-dimensional data.
+
+2) **Agglomerative Clustering:** This techniques focuses on building a hierarchy of clusters by iteratively merging cluster or groups with simmilarities. Effectively, clustering by a top down of what elements are the most simmilar. This is indeed a more computationally expesnsice process but it is great for trying to capture more complex and hidden relationships within a dataset. Though its output is quite sensitive to outliers within the dataset.
+
+There's a lot of potiencial with these techniques, however, not only are you choosing your bread, but also your poison.  
 
 ## Understanding the Data
 
